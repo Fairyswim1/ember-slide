@@ -1,0 +1,90 @@
+TAP version 13
+# Subtest: 36 independent tasks across three forms: arithmetic checked by substitution
+ok 1 - 36 independent tasks across three forms: arithmetic checked by substitution
+  ---
+  duration_ms: 2.9014
+  ...
+# Subtest: Incorrect sign and unlike-term errors are rejected
+ok 2 - Incorrect sign and unlike-term errors are rejected
+  ---
+  duration_ms: 0.2654
+  ...
+# Subtest: Wrong first response, retry, help and reused form cannot inflate evidence
+ok 3 - Wrong first response, retry, help and reused form cannot inflate evidence
+  ---
+  duration_ms: 2.9639
+  ...
+# Subtest: Independent coverage and reviewed explanation are separate and stale reviews invalidate
+ok 4 - Independent coverage and reviewed explanation are separate and stale reviews invalidate
+  ---
+  duration_ms: 0.9073
+  ...
+# Subtest: Unlike terms stay separate while different coefficients of x add
+ok 5 - Unlike terms stay separate while different coefficients of x add
+  ---
+  duration_ms: 3.6569
+  ...
+# Subtest: Opposite terms cancel; each input participates in at most one merge per move
+ok 6 - Opposite terms cancel; each input participates in at most one merge per move
+  ---
+  duration_ms: 0.5377
+  ...
+# Subtest: Walls split lines and never move
+ok 7 - Walls split lines and never move
+  ---
+  duration_ms: 0.2731
+  ...
+# Subtest: Every level has a bounded BFS solution, conserved expression and verified win
+ok 8 - Every level has a bounded BFS solution, conserved expression and verified win
+  ---
+  duration_ms: 57.0099
+  ...
+# Subtest: Always merging as much as possible wins introduction but fails all nine later levels
+ok 9 - Always merging as much as possible wins introduction but fails all nine later levels
+  ---
+  duration_ms: 5.058
+  ...
+# Subtest: Later paths must trade nonmerging setup moves for limited remaining moves
+ok 10 - Later paths must trade nonmerging setup moves for limited remaining moves
+  ---
+  duration_ms: 1.8098
+  ...
+# Subtest: Budget failure can undo, costs one recovery, restart restores budget
+ok 11 - Budget failure can undo, costs one recovery, restart restores budget
+  ---
+  duration_ms: 0.2762
+  ...
+# Subtest: No-op cannot spend moves; finished board cannot change
+ok 12 - No-op cannot spend moves; finished board cannot change
+  ---
+  duration_ms: 0.2153
+  ...
+# Subtest: Layouts differ, not just numeric substitutions
+ok 13 - Layouts differ, not just numeric substitutions
+  ---
+  duration_ms: 0.4461
+  ...
+# Subtest: Formatting handles coefficient one and negative numbers
+ok 14 - Formatting handles coefficient one and negative numbers
+  ---
+  duration_ms: 0.464
+  ...
+# Subtest: First visit and replay isolate both progress and independent evidence
+ok 15 - First visit and replay isolate both progress and independent evidence
+  ---
+  duration_ms: 4.1686
+  ...
+# Subtest: Skip marks only this games tutorial and keeps saved learner data
+ok 16 - Skip marks only this games tutorial and keeps saved learner data
+  ---
+  duration_ms: 0.3405
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 182.8111

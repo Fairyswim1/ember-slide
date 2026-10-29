@@ -1,0 +1,273 @@
+{
+  "goal": "이동 횟수 안에 판을 밀어 목표 문자 조각과 수 조각만 남기세요.",
+  "actions": [
+    "방향을 눌러 판 전체 밀기",
+    "한 수 전으로 되돌리기",
+    "이번 판 다시 시작"
+  ],
+  "referenceResearch": {
+    "candidates": [
+      {
+        "gameName": "2048",
+        "sourceUrl": "https://raw.githubusercontent.com/gabrielecirulli/2048/master/index.html",
+        "coreMechanic": "방향키로 전체 판을 밀고 같은 수의 두 조각을 합침",
+        "mathematicalAdaptation": "같은 수 대신 동류항을 더한다. x항과 상수항은 섞이지 않고 반대 계수의 합이 0이면 사라진다. 무작위 새 조각 대신 고정 퍼즐과 제한 이동을 사용.",
+        "chosen": true,
+        "reason": "방향 하나를 누르는 직관적인 조작, 합치기와 상쇄의 순서가 판의 빈자리와 경로에 직접 영향"
+      },
+      {
+        "gameName": "Rush Hour",
+        "sourceUrl": "https://www.ravensburger.us/en-US/products/games/thinkfun/rush-hour-76582",
+        "coreMechanic": "차와 트럭을 밀어 빨간 차의 탈출 길을 확보하는 단계별 퍼즐",
+        "mathematicalAdaptation": "항 조각의 통로를 확보하는 공간 퍼즐 후보",
+        "chosen": false,
+        "reason": "개별 차의 이동 축과 길이 규칙이 수학 판단보다 앞설 수 있어 전체 판 이동 선택"
+      },
+      {
+        "gameName": "Double 9 Dominoes",
+        "sourceUrl": "https://bicyclecards.com/how-to-play/double-9-dominoes",
+        "coreMechanic": "끝 수가 맞는 조각을 연결하여 손패를 먼저 모두 사용",
+        "mathematicalAdaptation": "동치인 일차식을 끝에 연결",
+        "chosen": false,
+        "reason": "직전 프리즘 도미노와 동일한 장르가 되므로 새 제작에서 제외"
+      }
+    ]
+  },
+  "loop": "배치를 읽음 → 합치거나 상쇄할 짝과 이동 방향을 생각 → 전체 판 이동 → 남은 조각과 이동 횟수 확인 → 목표 두 조각을 만들면 불씨 수집·다음 라운드 해금",
+  "math": "분배법칙에 따른 동류항의 합. 음의 항과의 덧셈으로 차와 상쇄를 관찰. 괄호가 있는 일차식 뺄셈은 독립 확인 과제로 구분.",
+  "limitations": "색만 보고 시행착오할 수 있으므로 승리는 수학 숙달 증거로 쓰지 않는다. 재미와 학습 효과는 학생 대상 검증 전 가설이다.",
+  "decisions": [
+    {
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "decision": "합치기 전에 가로·세로 줄을 맞추는 방향",
+      "counterexample": "1의 왼쪽 한 번 전략은 2 이후 벽·다른 종류에 막힘"
+    },
+    {
+      "rounds": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "decision": "양수·음수 짝을 먼저 만나게 해 빈자리 확보",
+      "counterexample": "당장 가장 많이 합치는 선택은 상쇄할 짝을 잃거나 벽 뒤에 고립시킴"
+    },
+    {
+      "rounds": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "decision": "미리 비우기·우회하기·마지막 합류 순서를 제한 이동 안에서 결합",
+      "counterexample": "greedy 최대 합치기 전략이 4~12에서 실패함을 자동 테스트"
+    }
+  ],
+  "stages": [
+    {
+      "id": 1,
+      "title": "첫 불씨",
+      "decision": "같은 종류끼리 합치기",
+      "budget": 3,
+      "shortestMoves": 1,
+      "route": [
+        "left"
+      ],
+      "greedyWins": true,
+      "layout": "xx..nn.........."
+    },
+    {
+      "id": 2,
+      "title": "엇갈린 조각",
+      "decision": "합치기 전에 가로·세로 줄 맞추기",
+      "budget": 6,
+      "shortestMoves": 4,
+      "route": [
+        "left",
+        "up",
+        "right",
+        "up"
+      ],
+      "greedyWins": true,
+      "layout": "x.x.nn.x......#n"
+    },
+    {
+      "id": 3,
+      "title": "돌아가는 길",
+      "decision": "합치기 전에 가로·세로 줄 맞추기",
+      "budget": 6,
+      "shortestMoves": 4,
+      "route": [
+        "left",
+        "up",
+        "left",
+        "up"
+      ],
+      "greedyWins": true,
+      "layout": ".xx#..n.n.x....n"
+    },
+    {
+      "id": 4,
+      "title": "두 갈래 작업대",
+      "decision": "합치기 전에 가로·세로 줄 맞추기",
+      "budget": 8,
+      "shortestMoves": 6,
+      "route": [
+        "up",
+        "right",
+        "up",
+        "left",
+        "down",
+        "left"
+      ],
+      "greedyWins": false,
+      "layout": "...n#x#...x..nxn"
+    },
+    {
+      "id": 5,
+      "title": "빈자리 만들기",
+      "decision": "합이 0인 짝을 먼저 만나게 해 빈자리 만들기",
+      "budget": 7,
+      "shortestMoves": 5,
+      "route": [
+        "right",
+        "up",
+        "left",
+        "down",
+        "left"
+      ],
+      "greedyWins": false,
+      "layout": "n#.x..n.x.nnx#.."
+    },
+    {
+      "id": 6,
+      "title": "먼저 없앨 조각",
+      "decision": "합이 0인 짝을 먼저 만나게 해 빈자리 만들기",
+      "budget": 7,
+      "shortestMoves": 5,
+      "route": [
+        "left",
+        "down",
+        "left",
+        "up",
+        "left"
+      ],
+      "greedyWins": false,
+      "layout": "x..nx.#.nnnx#..."
+    },
+    {
+      "id": 7,
+      "title": "벽 너머의 빛",
+      "decision": "합이 0인 짝을 먼저 만나게 해 빈자리 만들기",
+      "budget": 8,
+      "shortestMoves": 6,
+      "route": [
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "up"
+      ],
+      "greedyWins": false,
+      "layout": ".#nx.nx#nx....n."
+    },
+    {
+      "id": 8,
+      "title": "둘을 위한 순서",
+      "decision": "합이 0인 짝을 먼저 만나게 해 빈자리 만들기",
+      "budget": 7,
+      "shortestMoves": 5,
+      "route": [
+        "left",
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "greedyWins": false,
+      "layout": "..x.#.n..nxn.x#n"
+    },
+    {
+      "id": 9,
+      "title": "남겨 둔 불씨",
+      "decision": "없앨 조각과 남길 조각의 순서, 벽을 돌아갈 방향 함께 판단",
+      "budget": 9,
+      "shortestMoves": 7,
+      "route": [
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "right",
+        "up"
+      ],
+      "greedyWins": false,
+      "layout": "..nx.#.#.x.nnnxx"
+    },
+    {
+      "id": 10,
+      "title": "반대쪽 먼저",
+      "decision": "없앨 조각과 남길 조각의 순서, 벽을 돌아갈 방향 함께 판단",
+      "budget": 9,
+      "shortestMoves": 7,
+      "route": [
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "left",
+        "up"
+      ],
+      "greedyWins": false,
+      "layout": "nx.x#xn#....n.nx"
+    },
+    {
+      "id": 11,
+      "title": "작은 우회",
+      "decision": "없앨 조각과 남길 조각의 순서, 벽을 돌아갈 방향 함께 판단",
+      "budget": 9,
+      "shortestMoves": 7,
+      "route": [
+        "right",
+        "down",
+        "left",
+        "up",
+        "right",
+        "down",
+        "left"
+      ],
+      "greedyWins": false,
+      "layout": "..xn..n.xnx#x#.n"
+    },
+    {
+      "id": 12,
+      "title": "새벽의 공방",
+      "decision": "없앨 조각과 남길 조각의 순서, 벽을 돌아갈 방향 함께 판단",
+      "budget": 9,
+      "shortestMoves": 7,
+      "route": [
+        "down",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right",
+        "up"
+      ],
+      "greedyWins": false,
+      "layout": "..#nn#...xnxxxn."
+    }
+  ],
+  "resourceTradeoff": "이동 횟수를 쓰면서 당장 합치지 않는 위치 정렬이 필요하다. 후반 최단 해보다 1회 적은 예산은 실패. 되돌리기는 3회 소모, 재시작은 무료. 실제 시계 시간은 승패에 쓰지 않는다.",
+  "reward": "각 라운드 불씨 1개, 순차 해금, 기기 저장, 12개 등불의 완주 화면",
+  "assets": "내장 image_gen 5회, 주요 생성 에셋 실제 플레이에 사용. 벽은 생성 타일을 어둡게 표시. 숫자와 수식은 코드.",
+  "assessment": "9수02-02 정수 계수 표본 36과제·첫 응답·오답·도움·재시도·설명·교사 검토·내보내기"
+}

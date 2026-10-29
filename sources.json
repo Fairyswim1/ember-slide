@@ -1,0 +1,53 @@
+{
+  "visualReview": true,
+  "references": [
+    {
+      "filename": "미래엔_중학교수학1_교과서_3-3_일차식의덧셈과뺄셈.pdf",
+      "sha256": "67ae2b2056a1dccc9118ea9e5f880ca7763227d9e416b715507dd6ae2c55b28d",
+      "pdfPages": [
+        1,
+        2,
+        3
+      ],
+      "printedPages": [
+        85,
+        86,
+        87
+      ],
+      "concepts": [
+        "동류항: 문자와 차수가 각각 같은 항",
+        "상수항은 모두 동류항",
+        "분배법칙에 따른 계수의 덧셈·뺄셈",
+        "괄호를 풀고 동류항끼리 모음"
+      ],
+      "visualReview": {
+        "pages": [
+          1,
+          2
+        ],
+        "internalImages": [
+          "curriculum/ember-source-1.png",
+          "curriculum/ember-source-2.png"
+        ]
+      }
+    }
+  ],
+  "curriculum": {
+    "code": "9수02-02",
+    "standardPages": [
+      40
+    ],
+    "interpretationPages": [
+      42,
+      43
+    ],
+    "scope": "정수 계수의 동류항과 간단한 일차식 덧셈·뺄셈을 표본으로 확인합니다. 분수 계수와 복잡한 식은 미확인입니다. 계산 원리 설명은 교사 검토가 필요하며 게임 승리는 공식 이수 판정이 아닙니다."
+  },
+  "misconceptions": [
+    "2x+3=5x",
+    "x+x=x²",
+    "괄호 앞 음수를 첫 항에만 적용",
+    "0x=0이므로 x=0이라고 단정"
+  ],
+  "originalMaterialsExcluded": true
+}

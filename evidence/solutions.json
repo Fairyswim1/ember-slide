@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "moves": [
+      "left"
+    ],
+    "limit": 3,
+    "greedyWins": true
+  },
+  {
+    "id": 2,
+    "moves": [
+      "left",
+      "up",
+      "right",
+      "up"
+    ],
+    "limit": 6,
+    "greedyWins": true
+  },
+  {
+    "id": 3,
+    "moves": [
+      "left",
+      "up",
+      "left",
+      "up"
+    ],
+    "limit": 6,
+    "greedyWins": true
+  },
+  {
+    "id": 4,
+    "moves": [
+      "up",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left"
+    ],
+    "limit": 8,
+    "greedyWins": false
+  },
+  {
+    "id": 5,
+    "moves": [
+      "right",
+      "up",
+      "left",
+      "down",
+      "left"
+    ],
+    "limit": 7,
+    "greedyWins": false
+  },
+  {
+    "id": 6,
+    "moves": [
+      "left",
+      "down",
+      "left",
+      "up",
+      "left"
+    ],
+    "limit": 7,
+    "greedyWins": false
+  },
+  {
+    "id": 7,
+    "moves": [
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up"
+    ],
+    "limit": 8,
+    "greedyWins": false
+  },
+  {
+    "id": 8,
+    "moves": [
+      "left",
+      "down",
+      "left",
+      "right",
+      "up"
+    ],
+    "limit": 7,
+    "greedyWins": false
+  },
+  {
+    "id": 9,
+    "moves": [
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "right",
+      "up"
+    ],
+    "limit": 9,
+    "greedyWins": false
+  },
+  {
+    "id": 10,
+    "moves": [
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "left",
+      "up"
+    ],
+    "limit": 9,
+    "greedyWins": false
+  },
+  {
+    "id": 11,
+    "moves": [
+      "right",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "limit": 9,
+    "greedyWins": false
+  },
+  {
+    "id": 12,
+    "moves": [
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up"
+    ],
+    "limit": 9,
+    "greedyWins": false
+  }
+]

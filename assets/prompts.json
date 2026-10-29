@@ -1,0 +1,37 @@
+[
+  {
+    "name": "background",
+    "prompt": "Premium hand-painted 2D mobile puzzle game asset, refined storybook fantasy craft, restrained navy and glowing amber copper palette, tactile ceramic and aged copper, clean silhouette, no text no letters no numerals no logos. Wide landscape dusk workshop of a tiny woodland blacksmith, glowing kiln at left, shelves and hanging copper lanterns at edges, calm dark midnight-blue central area for a puzzle board, gentle warm light, exquisite environmental detail. No interface. Full bleed background.",
+    "tool": "image_gen",
+    "transparent": false,
+    "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-2c417a47-c8be-4d37-870d-a188d5580919.png"
+  },
+  {
+    "name": "tile",
+    "prompt": "Premium hand-painted 2D mobile puzzle game asset, refined storybook fantasy craft, restrained navy and glowing amber copper palette, tactile ceramic and aged copper, clean silhouette, no text no letters no numerals no logos. Single square rounded ceramic game tile front-facing perfectly orthographic, ivory smooth blank face occupying 80%, restrained aged copper bevel and tiny amber inset corners, no symbols. Tight centered crop around one tile, transparent background.",
+    "tool": "image_gen",
+    "transparent": true,
+    "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-6fee90d0-6fde-4d87-8d10-6ae4041a0698.png"
+  },
+  {
+    "name": "button",
+    "prompt": "Premium hand-painted 2D mobile puzzle game asset, refined storybook fantasy craft, restrained navy and glowing amber copper palette, tactile ceramic and aged copper, clean silhouette, no text no letters no numerals no logos. One wide horizontal rounded rectangular button, 4 to 1 proportion, hammered copper rim, midnight teal enamel blank center, softly luminous amber beveled edges. Front-facing flat orthographic usable game UI, transparent background.",
+    "tool": "image_gen",
+    "transparent": true,
+    "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-aa56f726-e08b-4df1-ae4c-ee2d133c7393.png"
+  },
+  {
+    "name": "guide",
+    "prompt": "Premium hand-painted 2D mobile puzzle game asset, refined storybook fantasy craft, restrained navy and glowing amber copper palette, tactile ceramic and aged copper, clean silhouette, no text no letters no numerals no logos. Small charming otter artisan mascot wearing navy apron and copper goggles on forehead, holding glowing amber bead, 3/4 full-body, intelligent kind expression, no tools or extra objects, transparent background.",
+    "tool": "image_gen",
+    "transparent": true,
+    "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-29271fae-aa5e-4bea-aa2c-fdcda2d64a43.png"
+  },
+  {
+    "name": "ember",
+    "prompt": "Premium hand-painted 2D mobile puzzle game asset, refined storybook fantasy craft, restrained navy and glowing amber copper palette, tactile ceramic and aged copper, clean silhouette, no text no letters no numerals no logos. One collectible lantern medallion for a stage button and reward, circular delicate copper ring enclosing warm faceted golden glass ember, large plain luminous center to overlay stage number, short tiny hanging loop at top. Front facing isolated transparent background.",
+    "tool": "image_gen",
+    "transparent": true,
+    "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-ed5ed1ab-4514-419c-9504-0be558e2eadd.png"
+  }
+]

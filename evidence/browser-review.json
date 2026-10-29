@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-29T23:33:51.939Z",
+  "sourceHash": "54b1d5bc7efb5bbc54a979644a999943338e94968b723e2c52f4b5d3f506c667",
+  "screenshots": [],
+  "gameplay": {
+    "all12RoundsWon": true,
+    "tutorialFirstSuccess": true,
+    "keyboard": true,
+    "undoAfterLoss": true,
+    "restartAfterLoss": true,
+    "persistence": true,
+    "ending": true,
+    "soundSignal": true,
+    "mobileWidth": 390
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "fonts": [
+      "Jua",
+      "Do Hyeon",
+      "Gowun Dodum"
+    ]
+  },
+  "assessment": {
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": true,
+    "mobile": true,
+    "codes": [
+      "9수02-02"
+    ],
+    "attempts": 13,
+    "hintEvents": 1,
+    "teacherReviewSaved": true,
+    "actualJsonDownloadVerified": true,
+    "tutorialDidNotChangeAssessment": true
+  },
+  "evidenceDates": {
+    "allStagePlay": "2026-10-29T17:20Z",
+    "mobileTutorialAndAssessment": "2026-10-29T17:25Z",
+    "remainingChecks": "2026-10-29T23:31Z"
+  },
+  "notes": "Synthetic local learner only. 14 initial tests + 2 tutorial isolation tests. Export preview opens first; actual download link clicked and downloaded JSON verified."
+}

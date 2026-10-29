@@ -1,0 +1,50 @@
+{
+  "id": "ember-slide",
+  "title": "엠버 슬라이드",
+  "subtitle": "식을 모으는 공방",
+  "version": "1.0.0",
+  "grade": 1,
+  "unit": "3-3 일차식의 덧셈과 뺄셈",
+  "status": "playable",
+  "description": "판 전체를 밀어 문자끼리, 수끼리 합치세요. 합이 0인 짝으로 길을 열고 이동 순서를 계획하는 12라운드에서 불씨를 모아 새벽 공방의 등불을 밝힙니다.",
+  "category": "문자와 식",
+  "tags": [
+    "동류항",
+    "슬라이딩 퍼즐",
+    "상쇄와 순서"
+  ],
+  "duration": "20–40분",
+  "assets": [
+    "assets/background.png",
+    "assets/tile.png",
+    "assets/button.png",
+    "assets/guide.png",
+    "assets/ember.png"
+  ],
+  "generatedRoles": {
+    "background": "assets/background.png",
+    "interactiveProp": "assets/tile.png",
+    "controls": "assets/button.png",
+    "character": "assets/guide.png",
+    "obstacle": "assets/tile.png (dark wall variation in CSS)",
+    "reward": "assets/ember.png",
+    "roundNavigation": "assets/ember.png"
+  },
+  "tutorial": {
+    "version": 1,
+    "firstVisit": true,
+    "spotlight": true,
+    "steps": 4,
+    "skippable": true,
+    "replay": true,
+    "practiceProgress": "isolated-memory"
+  },
+  "campaign": {
+    "rounds": 12,
+    "collectibles": 12,
+    "chapters": 3,
+    "ending": true
+  },
+  "repository": "https://github.com/Fairyswim1/ember-slide",
+  "repositoryStatus": "created"
+}
