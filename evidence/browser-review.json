@@ -1,13 +1,14 @@
 {
   "status": "passed",
-  "checkedAt": "2026-10-30T01:10:26.891Z",
-  "sourceHash": "c6b4c395e461af91b37f9cc4b89742c4f1b7ee238f17e34d7d1e644c9c03f339",
+  "checkedAt": "2026-10-30T01:16:22.339Z",
+  "sourceHash": "cfcbcc8fab99fae80b2dcf142f8993517a9f90b56d8b969f78f326420d8272a5",
   "screenshots": [
     "evidence/ember-drag-desktop.png",
     "evidence/ember-drag-mobile.png",
     "evidence/ember-report-final.png",
     "evidence/ember-desktop-final.png",
-    "evidence/ember-mobile-final.png"
+    "evidence/ember-mobile-final.png",
+    "evidence/student-copy.png"
   ],
   "gameplay": {
     "all12RoundsWon": true,
@@ -67,5 +68,14 @@
     "tutorialUpdated": true,
     "consoleErrors": [],
     "scope": "Changed input path verified in actual desktop browser and 390px viewport. Touch pointer, cancellation and input gates unit tested. Prior unchanged assessment browser evidence retained."
+  },
+  "previousCopyReview": {
+    "checkedAt": "2026-10-30T01:10:26.891Z",
+    "sourceHash": "c6b4c395e461af91b37f9cc4b89742c4f1b7ee238f17e34d7d1e644c9c03f339"
+  },
+  "studentCopyRevision": {
+    "reportOpened": true,
+    "proceduralExplanationRemoved": true,
+    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
   }
 }
