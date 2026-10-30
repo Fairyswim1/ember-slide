@@ -1,8 +1,10 @@
 {
   "status": "passed",
-  "checkedAt": "2026-10-29T23:33:51.939Z",
-  "sourceHash": "54b1d5bc7efb5bbc54a979644a999943338e94968b723e2c52f4b5d3f506c667",
+  "checkedAt": "2026-10-30T01:10:26.891Z",
+  "sourceHash": "c6b4c395e461af91b37f9cc4b89742c4f1b7ee238f17e34d7d1e644c9c03f339",
   "screenshots": [
+    "evidence/ember-drag-desktop.png",
+    "evidence/ember-drag-mobile.png",
     "evidence/ember-report-final.png",
     "evidence/ember-desktop-final.png",
     "evidence/ember-mobile-final.png"
@@ -49,5 +51,21 @@
     "mobileTutorialAndAssessment": "2026-10-29T17:25Z",
     "remainingChecks": "2026-10-29T23:31Z"
   },
-  "notes": "Synthetic local learner only. 14 initial tests + 2 tutorial isolation tests. Export preview opens first; actual download link clicked and downloaded JSON verified."
+  "notes": "Synthetic local learner only. 14 initial tests + 2 tutorial isolation tests. Export preview opens first; actual download link clicked and downloaded JSON verified.",
+  "previousFullReview": {
+    "checkedAt": "2026-10-29T23:33:51.939Z",
+    "sourceHash": "54b1d5bc7efb5bbc54a979644a999943338e94968b723e2c52f4b5d3f506c667"
+  },
+  "swipeRevision": {
+    "desktopMouseDragVictory": true,
+    "mobile390MouseDragVictory": true,
+    "horizontalAndVertical": true,
+    "shortDragIgnored": true,
+    "oneMovePerGesture": true,
+    "pointerTouchUnitTests": true,
+    "physicalTouchDeviceTested": false,
+    "tutorialUpdated": true,
+    "consoleErrors": [],
+    "scope": "Changed input path verified in actual desktop browser and 390px viewport. Touch pointer, cancellation and input gates unit tested. Prior unchanged assessment browser evidence retained."
+  }
 }
