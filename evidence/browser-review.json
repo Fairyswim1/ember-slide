@@ -1,35 +1,18 @@
 {
   "status": "passed",
-  "checkedAt": "2026-10-30T06:17:05.957Z",
-  "sourceHash": "992deaee9506039e84a40be44fb241ee61cd389978cf6ea52a82a8e9a435e263",
+  "checkedAt": "2026-10-30T07:51:45.577Z",
+  "sourceHash": "2167a2f12c425dd04d01cabf15320e4087227915555ff5a9731c7982d428dde5",
   "screenshots": [
-    "evidence/ember-drag-desktop.png",
-    "evidence/ember-drag-mobile.png",
-    "evidence/ember-report-final.png",
-    "evidence/ember-desktop-final.png",
-    "evidence/ember-mobile-final.png",
-    "evidence/student-copy.png"
+    "evidence/math-ember-slide-desktop.png",
+    "evidence/math-ember-slide-mobile.png",
+    "evidence/math-ember-slide-assessment.png"
   ],
-  "gameplay": {
-    "all12RoundsWon": true,
-    "tutorialFirstSuccess": true,
-    "keyboard": true,
-    "undoAfterLoss": true,
-    "restartAfterLoss": true,
-    "persistence": true,
-    "ending": true,
-    "soundSignal": true,
-    "mobileWidth": 390
-  },
-  "typography": {
-    "status": "passed",
-    "mobileWidth": 390,
-    "fonts": [
-      "Jua",
-      "Do Hyeon",
-      "Gowun Dodum"
-    ]
-  },
+  "checks": [
+    "All stage starting layouts checked at 390px; desktop final-stage screenshot inspected.",
+    "No horizontal page or measured math-container overflow; no KaTeX error nodes.",
+    "Actual independent assessment submission correct; all available task layouts checked at 390px.",
+    "First round won with arrow click and again by actual board drag; keyboard math-radio selection and grading passed."
+  ],
   "assessment": {
     "independent": true,
     "hint": true,
@@ -46,59 +29,30 @@
     "teacherReviewSaved": true,
     "actualJsonDownloadVerified": true,
     "tutorialDidNotChangeAssessment": true,
-    "jsonUiRemoved": true
+    "jsonUiRemoved": true,
+    "details": "This revision: actual correct first-task submission and mobile task layouts. Shared radio UI keyboard, wrong response, hint, retry, reload and report tested in Ember Slide. Earlier per-standard grading/report coverage is preserved in browser-review-before-latex.json; grading and persistence algorithms unchanged."
   },
-  "evidenceDates": {
-    "allStagePlay": "2026-10-29T17:20Z",
-    "mobileTutorialAndAssessment": "2026-10-29T17:25Z",
-    "remainingChecks": "2026-10-29T23:31Z"
-  },
-  "notes": "Synthetic local learner only. 14 initial tests + 2 tutorial isolation tests. Export preview opens first; actual download link clicked and downloaded JSON verified.",
-  "previousFullReview": {
-    "checkedAt": "2026-10-29T23:33:51.939Z",
-    "sourceHash": "54b1d5bc7efb5bbc54a979644a999943338e94968b723e2c52f4b5d3f506c667"
-  },
-  "swipeRevision": {
-    "desktopMouseDragVictory": true,
-    "mobile390MouseDragVictory": true,
-    "horizontalAndVertical": true,
-    "shortDragIgnored": true,
-    "oneMovePerGesture": true,
-    "pointerTouchUnitTests": true,
-    "physicalTouchDeviceTested": false,
-    "tutorialUpdated": true,
-    "consoleErrors": [],
-    "scope": "Changed input path verified in actual desktop browser and 390px viewport. Touch pointer, cancellation and input gates unit tested. Prior unchanged assessment browser evidence retained."
-  },
-  "previousCopyReview": {
-    "checkedAt": "2026-10-30T01:10:26.891Z",
-    "sourceHash": "c6b4c395e461af91b37f9cc4b89742c4f1b7ee238f17e34d7d1e644c9c03f339"
-  },
-  "studentCopyRevision": {
-    "reportOpened": true,
-    "proceduralExplanationRemoved": true,
-    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
-  },
-  "previousJsonUiReview": {
-    "checkedAt": "2026-10-30T01:16:22.339Z",
-    "sourceHash": "cfcbcc8fab99fae80b2dcf142f8993517a9f90b56d8b969f78f326420d8272a5",
-    "export": true
-  },
-  "jsonUiRemoval": {
+  "typography": {
     "status": "passed",
-    "checkedAt": "2026-10-30T06:16:46.888Z",
-    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
-    "report": {
-      "id": "ember-slide",
-      "report": true,
-      "noJson": true,
-      "exportButtons": 0,
-      "errors": []
+    "mobileWidth": 390,
+    "fonts": {
+      "title": "Jua",
+      "display": "Do Hyeon",
+      "body": "Gowun Dodum",
+      "math": "KaTeX"
     },
-    "commonSubmission": {
-      "submitted": true,
-      "result": "내 답: 방정식",
-      "persistedAfterReload": true
-    }
-  }
+    "checks": [
+      "Local fonts and license",
+      "Math contrast, safe card/button space and fraction/power rendering inspected"
+    ]
+  },
+  "previousReview": {
+    "sourceHash": "992deaee9506039e84a40be44fb241ee61cd389978cf6ea52a82a8e9a435e263",
+    "checkedAt": "2026-10-30T06:17:05.957Z",
+    "file": "evidence/browser-review-before-latex.json"
+  },
+  "limitations": [
+    "This revision checks all starting layouts, representative play and the existing complete engine test suite; it does not replay every stage to victory.",
+    "No student learning-effect study."
+  ]
 }

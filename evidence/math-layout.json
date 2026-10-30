@@ -1,0 +1,243 @@
+{
+  "checks": [
+    {
+      "id": "ember-slide",
+      "stage": 1,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 8,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 2,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 10,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 3,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 10,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 4,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 10,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 5,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 12,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 6,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 12,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 7,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 12,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 8,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 12,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 9,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 12,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 10,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 12,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 11,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 12,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": 12,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 12,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-choice",
+      "errors": 0,
+      "overflow": [],
+      "page": 390,
+      "tokens": 5,
+      "width": 390
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-2",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 3,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-3",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 3,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-4",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 4,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-5",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 5,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-6",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 3,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-7",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 3,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-8",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 4,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-9",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 5,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-10",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 3,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-11",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 3,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "assessment-12",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 7,
+      "width": 376
+    },
+    {
+      "id": "ember-slide",
+      "stage": "desktop-final",
+      "errors": 0,
+      "overflow": [],
+      "page": 1266,
+      "tokens": 12,
+      "width": 1266
+    },
+    {
+      "id": "ember-slide",
+      "stage": "report",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 24,
+      "width": 376
+    }
+  ],
+  "console": {
+    "id": "ember-slide",
+    "logs": []
+  },
+  "action": "First round won with arrow click and again by actual board drag; keyboard math-radio selection and grading passed."
+}
