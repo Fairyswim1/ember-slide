@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checkedAt": "2026-10-30T01:16:22.339Z",
-  "sourceHash": "cfcbcc8fab99fae80b2dcf142f8993517a9f90b56d8b969f78f326420d8272a5",
+  "checkedAt": "2026-10-30T06:17:05.957Z",
+  "sourceHash": "992deaee9506039e84a40be44fb241ee61cd389978cf6ea52a82a8e9a435e263",
   "screenshots": [
     "evidence/ember-drag-desktop.png",
     "evidence/ember-drag-mobile.png",
@@ -36,7 +36,7 @@
     "retry": true,
     "persistence": true,
     "report": true,
-    "export": true,
+    "export": false,
     "mobile": true,
     "codes": [
       "9수02-02"
@@ -45,7 +45,8 @@
     "hintEvents": 1,
     "teacherReviewSaved": true,
     "actualJsonDownloadVerified": true,
-    "tutorialDidNotChangeAssessment": true
+    "tutorialDidNotChangeAssessment": true,
+    "jsonUiRemoved": true
   },
   "evidenceDates": {
     "allStagePlay": "2026-10-29T17:20Z",
@@ -77,5 +78,27 @@
     "reportOpened": true,
     "proceduralExplanationRemoved": true,
     "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
+  },
+  "previousJsonUiReview": {
+    "checkedAt": "2026-10-30T01:16:22.339Z",
+    "sourceHash": "cfcbcc8fab99fae80b2dcf142f8993517a9f90b56d8b969f78f326420d8272a5",
+    "export": true
+  },
+  "jsonUiRemoval": {
+    "status": "passed",
+    "checkedAt": "2026-10-30T06:16:46.888Z",
+    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
+    "report": {
+      "id": "ember-slide",
+      "report": true,
+      "noJson": true,
+      "exportButtons": 0,
+      "errors": []
+    },
+    "commonSubmission": {
+      "submitted": true,
+      "result": "내 답: 방정식",
+      "persistedAfterReload": true
+    }
   }
 }

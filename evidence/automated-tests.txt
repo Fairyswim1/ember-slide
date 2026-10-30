@@ -2,107 +2,107 @@ TAP version 13
 # Subtest: 36 independent tasks across three forms: arithmetic checked by substitution
 ok 1 - 36 independent tasks across three forms: arithmetic checked by substitution
   ---
-  duration_ms: 3.1667
+  duration_ms: 3.7347
   ...
 # Subtest: Incorrect sign and unlike-term errors are rejected
 ok 2 - Incorrect sign and unlike-term errors are rejected
   ---
-  duration_ms: 0.2194
+  duration_ms: 0.3281
   ...
 # Subtest: Wrong first response, retry, help and reused form cannot inflate evidence
 ok 3 - Wrong first response, retry, help and reused form cannot inflate evidence
   ---
-  duration_ms: 3.0247
+  duration_ms: 3.5291
   ...
 # Subtest: Independent coverage and reviewed explanation are separate and stale reviews invalidate
 ok 4 - Independent coverage and reviewed explanation are separate and stale reviews invalidate
   ---
-  duration_ms: 0.8304
+  duration_ms: 0.9571
   ...
 # Subtest: Unlike terms stay separate while different coefficients of x add
 ok 5 - Unlike terms stay separate while different coefficients of x add
   ---
-  duration_ms: 2.665
+  duration_ms: 3.8256
   ...
 # Subtest: Opposite terms cancel; each input participates in at most one merge per move
 ok 6 - Opposite terms cancel; each input participates in at most one merge per move
   ---
-  duration_ms: 0.3923
+  duration_ms: 0.6167
   ...
 # Subtest: Walls split lines and never move
 ok 7 - Walls split lines and never move
   ---
-  duration_ms: 0.1951
+  duration_ms: 0.3274
   ...
 # Subtest: Every level has a bounded BFS solution, conserved expression and verified win
 ok 8 - Every level has a bounded BFS solution, conserved expression and verified win
   ---
-  duration_ms: 61.7564
+  duration_ms: 83.0813
   ...
 # Subtest: Always merging as much as possible wins introduction but fails all nine later levels
 ok 9 - Always merging as much as possible wins introduction but fails all nine later levels
   ---
-  duration_ms: 5.2925
+  duration_ms: 6.801
   ...
 # Subtest: Later paths must trade nonmerging setup moves for limited remaining moves
 ok 10 - Later paths must trade nonmerging setup moves for limited remaining moves
   ---
-  duration_ms: 1.3627
+  duration_ms: 2.3649
   ...
 # Subtest: Budget failure can undo, costs one recovery, restart restores budget
 ok 11 - Budget failure can undo, costs one recovery, restart restores budget
   ---
-  duration_ms: 0.416
+  duration_ms: 0.2815
   ...
 # Subtest: No-op cannot spend moves; finished board cannot change
 ok 12 - No-op cannot spend moves; finished board cannot change
   ---
-  duration_ms: 0.1699
+  duration_ms: 0.1634
   ...
 # Subtest: Layouts differ, not just numeric substitutions
 ok 13 - Layouts differ, not just numeric substitutions
   ---
-  duration_ms: 0.4149
+  duration_ms: 0.4001
   ...
 # Subtest: Formatting handles coefficient one and negative numbers
 ok 14 - Formatting handles coefficient one and negative numbers
   ---
-  duration_ms: 0.458
+  duration_ms: 0.4757
   ...
 # Subtest: swipe selects dominant axis; taps and ambiguous diagonals do not move
 ok 15 - swipe selects dominant axis; taps and ambiguous diagonals do not move
   ---
-  duration_ms: 1.3803
+  duration_ms: 1.6294
   ...
 # Subtest: mouse swipe moves once on release, including outside board
 ok 16 - mouse swipe moves once on release, including outside board
   ---
-  duration_ms: 1.8954
+  duration_ms: 1.3451
   ...
 # Subtest: touch swipe moves once on release, including outside board
 ok 17 - touch swipe moves once on release, including outside board
   ---
-  duration_ms: 1.683
+  duration_ms: 1.6282
   ...
 # Subtest: cancel, capture loss, multitouch and right mouse button never move
 ok 18 - cancel, capture loss, multitouch and right mouse button never move
   ---
-  duration_ms: 0.5551
+  duration_ms: 0.7645
   ...
 # Subtest: tutorial or finished-board input gates apply at both start and release
 ok 19 - tutorial or finished-board input gates apply at both start and release
   ---
-  duration_ms: 0.2935
+  duration_ms: 0.3565
   ...
 # Subtest: First visit and replay isolate both progress and independent evidence
 ok 20 - First visit and replay isolate both progress and independent evidence
   ---
-  duration_ms: 4.3283
+  duration_ms: 5.0486
   ...
 # Subtest: Skip marks only this games tutorial and keeps saved learner data
 ok 21 - Skip marks only this games tutorial and keeps saved learner data
   ---
-  duration_ms: 0.4133
+  duration_ms: 0.4581
   ...
 1..21
 # tests 21
@@ -112,4 +112,4 @@ ok 21 - Skip marks only this games tutorial and keeps saved learner data
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 192.7414
+# duration_ms 221.9228
