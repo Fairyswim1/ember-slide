@@ -1,0 +1,42 @@
+{
+  "title": "잠들지 않는 불씨",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "잠들지 않는 불씨",
+    "root": 57,
+    "bpm": 76,
+    "color": "felt",
+    "minor": true,
+    "motif": [
+      0,
+      3,
+      7,
+      10,
+      7,
+      5,
+      3,
+      7
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 76,
+      "seconds": 50.52630385487528,
+      "peak": 0.2374162328630066,
+      "rms": 0.05231188166134017,
+      "seamDelta": 0.004933883575535666,
+      "sha256": "9d622a10834ec95100a02a4004e11151c4e8c6a4dc71fbe6e789bd2ecaac49cf"
+    },
+    {
+      "mode": "energy",
+      "bpm": 100,
+      "seconds": 38.4,
+      "peak": 0.28772117575923734,
+      "rms": 0.0665647704156223,
+      "seamDelta": 0.009043221565915138,
+      "sha256": "f1e24ff797c459eea7f1f128a4691d75d1ac3dc3d3352220aa3b6bb394bc6ca6"
+    }
+  ]
+}
