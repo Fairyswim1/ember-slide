@@ -2,199 +2,224 @@ TAP version 13
 # Subtest: 36 independent tasks across three forms: arithmetic checked by substitution
 ok 1 - 36 independent tasks across three forms: arithmetic checked by substitution
   ---
-  duration_ms: 3.6237
+  duration_ms: 6.2041
   ...
 # Subtest: Incorrect sign and unlike-term errors are rejected
 ok 2 - Incorrect sign and unlike-term errors are rejected
   ---
-  duration_ms: 0.257
+  duration_ms: 0.4263
   ...
 # Subtest: Wrong first response, retry, help and reused form cannot inflate evidence
 ok 3 - Wrong first response, retry, help and reused form cannot inflate evidence
   ---
-  duration_ms: 2.6005
+  duration_ms: 3.8933
   ...
 # Subtest: Independent coverage and reviewed explanation are separate and stale reviews invalidate
 ok 4 - Independent coverage and reviewed explanation are separate and stale reviews invalidate
   ---
-  duration_ms: 0.6801
+  duration_ms: 1.2567
   ...
 # Subtest: Unlike terms stay separate while different coefficients of x add
 ok 5 - Unlike terms stay separate while different coefficients of x add
   ---
-  duration_ms: 3.5169
+  duration_ms: 5.4481
   ...
 # Subtest: Opposite terms cancel; each input participates in at most one merge per move
 ok 6 - Opposite terms cancel; each input participates in at most one merge per move
   ---
-  duration_ms: 0.6407
+  duration_ms: 0.6364
   ...
 # Subtest: Walls split lines and never move
 ok 7 - Walls split lines and never move
   ---
-  duration_ms: 0.3137
+  duration_ms: 0.3042
   ...
 # Subtest: Every level has a bounded BFS solution, conserved expression and verified win
 ok 8 - Every level has a bounded BFS solution, conserved expression and verified win
   ---
-  duration_ms: 73.635
+  duration_ms: 93.296
   ...
 # Subtest: Always merging as much as possible wins introduction but fails all nine later levels
 ok 9 - Always merging as much as possible wins introduction but fails all nine later levels
   ---
-  duration_ms: 5.4825
+  duration_ms: 9.2204
   ...
 # Subtest: Later paths must trade nonmerging setup moves for limited remaining moves
 ok 10 - Later paths must trade nonmerging setup moves for limited remaining moves
   ---
-  duration_ms: 1.5066
+  duration_ms: 1.6666
   ...
 # Subtest: Budget failure can undo, costs one recovery, restart restores budget
 ok 11 - Budget failure can undo, costs one recovery, restart restores budget
   ---
-  duration_ms: 0.3031
+  duration_ms: 0.4798
   ...
 # Subtest: No-op cannot spend moves; finished board cannot change
 ok 12 - No-op cannot spend moves; finished board cannot change
   ---
-  duration_ms: 0.1786
+  duration_ms: 0.1749
   ...
 # Subtest: Layouts differ, not just numeric substitutions
 ok 13 - Layouts differ, not just numeric substitutions
   ---
-  duration_ms: 0.4319
+  duration_ms: 0.4116
   ...
 # Subtest: Formatting handles coefficient one and negative numbers
 ok 14 - Formatting handles coefficient one and negative numbers
   ---
-  duration_ms: 0.4532
+  duration_ms: 0.8747
   ...
 # Subtest: Fractions bind only their denominator, preserving rational coefficients and signs
 ok 15 - Fractions bind only their denominator, preserving rational coefficients and signs
   ---
-  duration_ms: 1.4831
+  duration_ms: 1.6882
   ...
 # Subtest: Math renders decimals, powers, coordinates, comparisons and operations without changing original source
 ok 16 - Math renders decimals, powers, coordinates, comparisons and operations without changing original source
   ---
-  duration_ms: 15.1649
+  duration_ms: 17.5263
   ...
 # Subtest: Text and unsafe input are escaped; no HTML commands are accepted
 ok 17 - Text and unsafe input are escaped; no HTML commands are accepted
   ---
-  duration_ms: 0.2455
+  duration_ms: 0.2458
   ...
 # Subtest: Every actual prompt, hint and choice preserves its text across all three variants
 ok 18 - Every actual prompt, hint and choice preserves its text across all three variants
   ---
-  duration_ms: 14.4551
+  duration_ms: 18.2327
   ...
 # Subtest: Blank symbols and incomplete learner notation stay readable
 ok 19 - Blank symbols and incomplete learner notation stay readable
   ---
-  duration_ms: 0.9779
+  duration_ms: 0.9947
   ...
 # Subtest: music starts only after explicit play; loops and resumes without resetting position
 ok 20 - music starts only after explicit play; loops and resumes without resetting position
   ---
-  duration_ms: 1.9351
+  duration_ms: 5.4372
   ...
 # Subtest: mode change preserves playing state and writes only preferences
 ok 21 - mode change preserves playing state and writes only preferences
   ---
-  duration_ms: 2.7268
+  duration_ms: 3.1964
   ...
 # Subtest: saved mode and volume load without autoplay
 ok 22 - saved mode and volume load without autoplay
   ---
-  duration_ms: 0.2871
+  duration_ms: 0.459
   ...
 # Subtest: invalid preferences and modes cannot select arbitrary sources
 ok 23 - invalid preferences and modes cannot select arbitrary sources
   ---
-  duration_ms: 0.2591
+  duration_ms: 0.3822
   ...
 # Subtest: blocked playback exposes recovery without claiming playback
 ok 24 - blocked playback exposes recovery without claiming playback
   ---
-  duration_ms: 0.3687
+  duration_ms: 0.4084
   ...
 # Subtest: pause cancels a pending play state update
 ok 25 - pause cancels a pending play state update
   ---
-  duration_ms: 0.2467
+  duration_ms: 0.3682
   ...
 # Subtest: older play completion cannot silence the newer request
 ok 26 - older play completion cannot silence the newer request
   ---
-  duration_ms: 0.261
+  duration_ms: 0.4039
   ...
 # Subtest: muted effects never start; enable, play and mute stop active oscillators
 ok 27 - muted effects never start; enable, play and mute stop active oscillators
   ---
-  duration_ms: 2.4127
+  duration_ms: 2.9817
   ...
 # Subtest: preference survives new controller and test checks a generated waveform
 ok 28 - preference survives new controller and test checks a generated waveform
   ---
-  duration_ms: 88.4427
+  duration_ms: 82.6331
   ...
 # Subtest: blocked playback returns an error instead of falsely reporting enabled sound
 ok 29 - blocked playback returns an error instead of falsely reporting enabled sound
   ---
-  duration_ms: 0.5125
+  duration_ms: 0.5536
   ...
 # Subtest: muting while resume is pending cannot re-enable playback
 ok 30 - muting while resume is pending cannot re-enable playback
   ---
-  duration_ms: 0.2831
+  duration_ms: 0.3156
   ...
 # Subtest: unavailable storage does not prevent sound playback
 ok 31 - unavailable storage does not prevent sound playback
   ---
-  duration_ms: 0.3948
+  duration_ms: 0.5365
   ...
 # Subtest: swipe selects dominant axis; taps and ambiguous diagonals do not move
 ok 32 - swipe selects dominant axis; taps and ambiguous diagonals do not move
   ---
-  duration_ms: 1.3901
+  duration_ms: 1.5488
   ...
 # Subtest: mouse swipe moves once on release, including outside board
 ok 33 - mouse swipe moves once on release, including outside board
   ---
-  duration_ms: 1.6524
+  duration_ms: 1.3979
   ...
 # Subtest: touch swipe moves once on release, including outside board
 ok 34 - touch swipe moves once on release, including outside board
   ---
-  duration_ms: 1.5633
+  duration_ms: 1.3463
   ...
 # Subtest: cancel, capture loss, multitouch and right mouse button never move
 ok 35 - cancel, capture loss, multitouch and right mouse button never move
   ---
-  duration_ms: 0.4782
+  duration_ms: 0.5263
   ...
 # Subtest: tutorial or finished-board input gates apply at both start and release
 ok 36 - tutorial or finished-board input gates apply at both start and release
   ---
-  duration_ms: 0.2101
+  duration_ms: 0.2543
   ...
-# Subtest: First visit and replay isolate both progress and independent evidence
-ok 37 - First visit and replay isolate both progress and independent evidence
+# Subtest: first visit always starts, including an old shared off URL
+ok 37 - first visit always starts, including an old shared off URL
   ---
-  duration_ms: 3.2051
+  duration_ms: 2.1011
   ...
-# Subtest: Skip marks only this games tutorial and keeps saved learner data
-ok 38 - Skip marks only this games tutorial and keeps saved learner data
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 38 - opening, abandoning, and refreshing do not mark the guide finished
   ---
-  duration_ms: 0.3418
+  duration_ms: 1.3423
   ...
-1..38
-# tests 38
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 39 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 4.3868
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 40 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.572
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 41 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.3496
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 42 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.3709
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 43 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.3841
+  ...
+1..43
+# tests 43
 # suites 0
-# pass 38
+# pass 43
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 246.2795
+# duration_ms 289.8765

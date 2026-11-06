@@ -1,0 +1,225 @@
+TAP version 13
+# Subtest: 36 independent tasks across three forms: arithmetic checked by substitution
+ok 1 - 36 independent tasks across three forms: arithmetic checked by substitution
+  ---
+  duration_ms: 4.7406
+  ...
+# Subtest: Incorrect sign and unlike-term errors are rejected
+ok 2 - Incorrect sign and unlike-term errors are rejected
+  ---
+  duration_ms: 0.3778
+  ...
+# Subtest: Wrong first response, retry, help and reused form cannot inflate evidence
+ok 3 - Wrong first response, retry, help and reused form cannot inflate evidence
+  ---
+  duration_ms: 3.999
+  ...
+# Subtest: Independent coverage and reviewed explanation are separate and stale reviews invalidate
+ok 4 - Independent coverage and reviewed explanation are separate and stale reviews invalidate
+  ---
+  duration_ms: 1.2352
+  ...
+# Subtest: Unlike terms stay separate while different coefficients of x add
+ok 5 - Unlike terms stay separate while different coefficients of x add
+  ---
+  duration_ms: 3.709
+  ...
+# Subtest: Opposite terms cancel; each input participates in at most one merge per move
+ok 6 - Opposite terms cancel; each input participates in at most one merge per move
+  ---
+  duration_ms: 0.5699
+  ...
+# Subtest: Walls split lines and never move
+ok 7 - Walls split lines and never move
+  ---
+  duration_ms: 0.2781
+  ...
+# Subtest: Every level has a bounded BFS solution, conserved expression and verified win
+ok 8 - Every level has a bounded BFS solution, conserved expression and verified win
+  ---
+  duration_ms: 75.5688
+  ...
+# Subtest: Always merging as much as possible wins introduction but fails all nine later levels
+ok 9 - Always merging as much as possible wins introduction but fails all nine later levels
+  ---
+  duration_ms: 6.9095
+  ...
+# Subtest: Later paths must trade nonmerging setup moves for limited remaining moves
+ok 10 - Later paths must trade nonmerging setup moves for limited remaining moves
+  ---
+  duration_ms: 1.5551
+  ...
+# Subtest: Budget failure can undo, costs one recovery, restart restores budget
+ok 11 - Budget failure can undo, costs one recovery, restart restores budget
+  ---
+  duration_ms: 0.3068
+  ...
+# Subtest: No-op cannot spend moves; finished board cannot change
+ok 12 - No-op cannot spend moves; finished board cannot change
+  ---
+  duration_ms: 0.1844
+  ...
+# Subtest: Layouts differ, not just numeric substitutions
+ok 13 - Layouts differ, not just numeric substitutions
+  ---
+  duration_ms: 0.7136
+  ...
+# Subtest: Formatting handles coefficient one and negative numbers
+ok 14 - Formatting handles coefficient one and negative numbers
+  ---
+  duration_ms: 0.6256
+  ...
+# Subtest: Fractions bind only their denominator, preserving rational coefficients and signs
+ok 15 - Fractions bind only their denominator, preserving rational coefficients and signs
+  ---
+  duration_ms: 1.5196
+  ...
+# Subtest: Math renders decimals, powers, coordinates, comparisons and operations without changing original source
+ok 16 - Math renders decimals, powers, coordinates, comparisons and operations without changing original source
+  ---
+  duration_ms: 17.6649
+  ...
+# Subtest: Text and unsafe input are escaped; no HTML commands are accepted
+ok 17 - Text and unsafe input are escaped; no HTML commands are accepted
+  ---
+  duration_ms: 0.3494
+  ...
+# Subtest: Every actual prompt, hint and choice preserves its text across all three variants
+ok 18 - Every actual prompt, hint and choice preserves its text across all three variants
+  ---
+  duration_ms: 15.9447
+  ...
+# Subtest: Blank symbols and incomplete learner notation stay readable
+ok 19 - Blank symbols and incomplete learner notation stay readable
+  ---
+  duration_ms: 0.8073
+  ...
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 20 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 2.4807
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 21 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 2.2797
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 22 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.3722
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 23 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.3398
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 24 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.3192
+  ...
+# Subtest: pause cancels a pending play state update
+ok 25 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.312
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 26 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.3961
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 27 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 2.6879
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 28 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 79.163
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 29 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.6414
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 30 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.3065
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 31 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.4323
+  ...
+# Subtest: swipe selects dominant axis; taps and ambiguous diagonals do not move
+ok 32 - swipe selects dominant axis; taps and ambiguous diagonals do not move
+  ---
+  duration_ms: 0.9846
+  ...
+# Subtest: mouse swipe moves once on release, including outside board
+ok 33 - mouse swipe moves once on release, including outside board
+  ---
+  duration_ms: 1.3379
+  ...
+# Subtest: touch swipe moves once on release, including outside board
+ok 34 - touch swipe moves once on release, including outside board
+  ---
+  duration_ms: 1.2997
+  ...
+# Subtest: cancel, capture loss, multitouch and right mouse button never move
+ok 35 - cancel, capture loss, multitouch and right mouse button never move
+  ---
+  duration_ms: 0.4238
+  ...
+# Subtest: tutorial or finished-board input gates apply at both start and release
+ok 36 - tutorial or finished-board input gates apply at both start and release
+  ---
+  duration_ms: 0.2123
+  ...
+# Subtest: first visit always starts, including an old shared off URL
+ok 37 - first visit always starts, including an old shared off URL
+  ---
+  duration_ms: 3.0794
+  ...
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 38 - opening, abandoning, and refreshing do not mark the guide finished
+  ---
+  duration_ms: 1.0275
+  ...
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 39 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 3.2852
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 40 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.5456
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 41 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.3043
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 42 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.472
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 43 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.5344
+  ...
+1..43
+# tests 43
+# suites 0
+# pass 43
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 246.2361

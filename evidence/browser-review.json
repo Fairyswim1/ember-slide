@@ -1,11 +1,12 @@
 {
   "status": "passed",
   "checkedAt": "2026-10-30T07:51:45.577Z",
-  "sourceHash": "b55698dc31a84b5906979b322e928afc9c14e2eedb0d8f674a33708ece2ebe48",
+  "sourceHash": "0a588ed2e70086f8b99f437b296229d9d1973422c484fbfaa993d9febe614c67",
   "screenshots": [
     "evidence/math-ember-slide-desktop.png",
     "evidence/math-ember-slide-mobile.png",
-    "evidence/math-ember-slide-assessment.png"
+    "evidence/math-ember-slide-assessment.png",
+    "evidence/first-visit-mobile.png"
   ],
   "checks": [
     "All stage starting layouts checked at 390px; desktop final-stage screenshot inspected.",
@@ -75,5 +76,17 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:46.448Z",
+    "id": "ember-slide",
+    "firstVisitOff": true,
+    "startedStep": "두 조각만 남기면 성공",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "b55698dc31a84b5906979b322e928afc9c14e2eedb0d8f674a33708ece2ebe48",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }
